@@ -1,0 +1,34 @@
+@import 'rsuite/dist/rsuite.css';
+
+#root {
+  margin: 0px;
+}
+.dashBoardBackgroundColor {
+  background-color: #f3f3f8;
+}
+
+.sdp {
+  --theme-color: #8b5cf6 !important;
+}
+
+/* scrollbar for left side bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d3d3;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.custom-toggle {
+  border: none !important;
+}
